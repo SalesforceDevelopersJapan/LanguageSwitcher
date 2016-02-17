@@ -1,0 +1,36 @@
+<design:component>
+    <design:attribute 
+                      name="leftLang"
+                      label="Language-1"
+                      datasource="English,Japanese,Chinese_Simplified,Chinese_Traditional,
+                                  Danish,Dutch,Finnish,French,German,Italian,Korean,Norwegian,
+                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"	
+                      /> 
+    <design:attribute 
+                      name="rightLang"
+                      label="Language-2" 
+                      datasource="English,Japanese,Chinese_Simplified,Chinese_Traditional,
+                                  Danish,Dutch,Finnish,French,German,Italian,Korean,Norwegian,
+                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"	
+                      />   
+    <design:attribute 
+                      name="leftText"
+                      label="Text Label: Left" 
+                      description="What to show on the left side of buttons?"
+                      /> 
+    <design:attribute 
+                      name="leftButtonString"
+                      label="Text Label: Language-1" 
+                      description="What to show on the left button?"
+                      />  
+    <design:attribute 
+                      name="rightButtonString"
+                      label="Text Label: Language-2" 
+                      description="What to show on the right button?"
+                      />   
+    <design:attribute 
+                      name="rightText"
+                      label="Text Label: Right" 
+                      description="What to show on the right side of buttons?"
+                      />
+</design:component>

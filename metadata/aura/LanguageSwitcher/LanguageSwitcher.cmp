@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="LanguageSwitcherController">
+
+    
+    <!--allow to change-->
+    <aura:attribute name="leftText" type="String" default="Language Switch:"/>
+    <aura:attribute name="rightText" type="String" default=""/>
+    <aura:attribute name="leftButtonString" type="String" default="English"/>
+    <aura:attribute name="rightButtonString" type="String" default="Japanese"/>
+    <aura:attribute name="leftLang" type="String" default="English"/>
+    <aura:attribute name="rightLang" type="String" default="Japanese"/>
+    
+    <!--internal use-->
+    <aura:attribute name="currentLang" type="String" default=""/>
+    
+    <!--event-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <!--main contents-->    
+    <div class="slds">
+        {!v.leftText}&nbsp;
+        <ui:button aura:id="changeToLeft" label="{!v.leftButtonString}" press="{!c.changeToLeft}"/>
+        <ui:button aura:id="changeToRight" label="{!v.rightButtonString}" press="{!c.changeToRight}"/>
+        &nbsp;{!v.rightText}
+    </div>
+    
+</aura:component>
