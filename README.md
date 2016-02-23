@@ -14,7 +14,7 @@ Get to know it with a demo video(YouTube)
 
 #How to build?
 You can create a Lightning App using this component with Lightning App Builder.
-In Lightning App builder, you choose two languages that should be choosed to change.
+In Lightning App builder, you might choose two languages that should be choosed to change.
 And you can also customize texts on the buttons and around the buttons. 
 
 
