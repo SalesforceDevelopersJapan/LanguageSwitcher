@@ -4,14 +4,14 @@
                       label="Language-1"
                       datasource="English,Japanese,Chinese_Simplified,Chinese_Traditional,
                                   Danish,Dutch,Finnish,French,German,Italian,Korean,Norwegian,
-                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"	
+                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"  
                       /> 
     <design:attribute 
                       name="rightLang"
                       label="Language-2" 
                       datasource="English,Japanese,Chinese_Simplified,Chinese_Traditional,
                                   Danish,Dutch,Finnish,French,German,Italian,Korean,Norwegian,
-                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"	
+                                  Portuguese_Brazil,Russian,Spanish,Spanish_Mexico,Swedish,Thai"  
                       />   
     <design:attribute 
                       name="leftText"

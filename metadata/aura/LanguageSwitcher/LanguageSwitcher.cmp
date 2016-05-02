@@ -1,5 +1,6 @@
-<aura:component implements="flexipage:availableForAllPageTypes" controller="LanguageSwitcherController">
-
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable,forceCommunity:availableForAllPageTypes"
+                controller="LanguageSwitcherController"
+                >
     
     <!--allow to change-->
     <aura:attribute name="leftText" type="String" default="Language Switch:"/>

@@ -45,7 +45,7 @@
     //set a button to active or disactive
     _setStyle: function(cmp, leftStyle, rightStyle){
         var leftButton = cmp.find("changeToLeft");
-		leftButton.getElement().disabled = leftStyle;        
+        leftButton.getElement().disabled = leftStyle;        
         var rightButton = cmp.find("changeToRight");
         rightButton.getElement().disabled = rightStyle;
     },
