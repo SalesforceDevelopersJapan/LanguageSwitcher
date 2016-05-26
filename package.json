@@ -1,0 +1,22 @@
+{
+  "name": "LanguageSwither",
+  "version": "1.4.0",
+  "description": "Easy Language Swither Component for Salesforce Lightning Applicaiton",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/SalesforceDevelopersJapan/LanguageSwitcher.git"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "watch": "gulp watch"
+  },
+  "author": "Salesforce Labs",
+  "license": "MIT",
+  "devDependencies": {
+    "jsforce": "^1.6.4",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0",
+    "through2": "^2.0.1",
+    "node-env-file":"^0.1.8"
+  }
+}
